@@ -2,3 +2,10 @@ baseURL = 'https://avantar.github.io/maras-blog/'
 languageCode = 'pl-PL'
 title = 'Maras'
 theme = "PaperMod"
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+[menu]
+[[menu.main]]
+  name = 'Search'
+  url = 'search/'
+    
